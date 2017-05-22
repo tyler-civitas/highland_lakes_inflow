@@ -1,5 +1,8 @@
-"""download data for LCRA gauges and add them to SWIS database
+"""
 BORROWED FROM GITHUB USER NATHANHILBERT
+This was used as a 'comparison' template for the webscraping work
+
+download data for LCRA gauges and add them to SWIS database
 """
 import argparse
 from decimal import Decimal
