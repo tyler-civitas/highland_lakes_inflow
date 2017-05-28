@@ -9,6 +9,7 @@ __main__ block is used for testing
 
 import psycopg2
 from psycopg2 import sql
+from psycopg2.extras import execute_values
 
 
 class ManipulateDatabase(object):
@@ -43,10 +44,11 @@ class ManipulateDatabase(object):
         cur.close()
 
 
-    def insert_gauge_reading(self, observation):
-        """Insert a single reading from an observation tuple
+    def insert_gauge_readings(self, obs):
+        """Insert a single reading or multiple readings
+         from an observation tuple
 
-        Format: (timestamp, gauge, sensor, value)
+        Format: (timestamp, gauge, sensor, value) (As list for multi)
 
         NOTE: Some entries in hydromet have multiple values, such as
         'count', 'rainfall'. These should be stored as seperate
@@ -54,17 +56,19 @@ class ManipulateDatabase(object):
 
         Table name is hard-coded for parameterization
         """
-
-        collection_time, gauge, sensor, value = observation
         cur = self.conn.cursor()
-        cur.execute('''INSERT INTO hydromet
-                       (collection_time, gauge, sensor, value)
-                       VALUES (%s, %s, %s, %s)''',
-                    (collection_time, gauge, sensor, value)
-                   )
+        q = '''INSERT INTO hydromet
+               (collection_time, gauge, sensor, value)
+               VALUES %s'''
+
+        if isinstance(obs, tuple):
+            cur.execute(q, (obs,))
+        else:
+            tm = "(%s, %s, %s, %s)"
+            execute_values(cur, q, obs, template=tm, page_size=999)
+
         self.conn.commit()
         cur.close()
-
 
 
     def _check_table_existence(self):
@@ -82,22 +86,25 @@ class ManipulateDatabase(object):
 
 # POOR MANS UNIT TESTING ENVIRONMENT
 if __name__ == "__main__":
+    pass
 
-    # TEST Class Instantiation - OK
+# TEST Class Instantiation - OK
     md = ManipulateDatabase()
 
-    # TEST Table Creation, TEST _check_table_existence() - OK
+# TEST Table Creation, TEST _check_table_existence() - OK
     # md.create_table()
 
-    # TEST insert_gauge_reading - OK
-    # TEST multiple commits to ensure connection stays open - OK
-    # SQL time format: `1999-12-31 23:59:59.99'
-    # Row contents: collection_time, gauge, sensor, value
-    # obs1, obs2 = zip(*[('2001-10-01 12:45:00', '2017-01-20 00:20:00'),
-    #                    ('Buchanan Dam', 'Stream at brushy creek'),
-    #                    ('STAGE', 'tail'),
-    #                    (10, 0.0005)
-    #                   ]
-    #                 )
-    # md.insert_gauge_reading(obs1)
-    # md.insert_gauge_reading(obs2)
+# TEST insert_gauge_readings single and multi - OK
+# TEST multiple commits to ensure connection stays open - OK
+# SQL time format: `1999-12-31 23:59:59.99'
+# Row contents: collection_time, gauge, sensor, value
+    obs1, obs2 = zip(*[('2001-10-01 12:45:00', '2017-01-20 00:20:00'),
+                       ('Buchanan Dam', 'Stream at brushy creek'),
+                       ('STAGE', 'tail'),
+                       (10, 0.0005)
+                      ]
+                    )
+    # md.insert_gauge_readings(obs1)
+    # md.insert_gauge_readings(obs2)
+    # multiobs = [obs1, obs2]
+    # md.insert_gauge_readings(multiobs)
