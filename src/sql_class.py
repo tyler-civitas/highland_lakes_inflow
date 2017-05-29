@@ -34,11 +34,13 @@ class ManipulateDatabase(object):
             raise RuntimeWarning("Table exists! Drop it first!")
         cur = self.conn.cursor()
         cur.execute('''CREATE TABLE hydromet
-                              (collection_time TIMESTAMP PRIMARY KEY,
+                              (observation_id SERIAL PRIMARY KEY,
+                               collection_time TIMESTAMP,
                                gauge TEXT,
                                sensor TEXT,
                                value REAL
-                              );'''
+                              );
+                    '''
                    )
         self.conn.commit()
         cur.close()
@@ -92,7 +94,7 @@ if __name__ == "__main__":
     md = ManipulateDatabase()
 
 # TEST Table Creation, TEST _check_table_existence() - OK
-    # md.create_table()
+    md.create_table()
 
 # TEST insert_gauge_readings single and multi - OK
 # TEST multiple commits to ensure connection stays open - OK

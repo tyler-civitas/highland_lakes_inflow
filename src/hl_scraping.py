@@ -21,11 +21,14 @@ import numpy as np
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
+from selenium.common.exceptions import NoSuchElementException
 
 # Python
 from time import sleep
+from datetime import date, timedelta, datetime
 
-from datetime import date, timedelta
+# SQL module
+from sql_class import ManipulateDatabase
 
 
 class HLScraper(object):
@@ -38,12 +41,14 @@ class HLScraper(object):
 
         self.url = url
         self.current_gauge_value = current_gauge_value
-        self.start_date = start_date
+        self.start_date = self._conv_date(start_date)
         if not end_date:
-            self.end_date = date.today().strftime("%m/%d/%Y")
-        self.end_date = end_date
+            self.end_date = date.today()
+        else:
+            self.end_date = self._conv_date(end_date)
         self.driver = None
         self.gauge_list = None
+        self.cur_gauge = None
 
 
     def start(self,
@@ -57,9 +62,11 @@ class HLScraper(object):
         It may help to run this function with a UNIX redirection
         for STDOUT to log the behavior
         """
+	print "Start Scraper"
         self.get_remaining_gauge_list(self.current_gauge_value)
 
         self.driver = webdriver.Chrome()
+        self.driver.implicitly_wait(30)
         self.driver.get(self.url)
 
         self._cycle_gauges()
@@ -111,43 +118,121 @@ class HLScraper(object):
             select = Select(
                      self.driver.find_element_by_name('DropDownList1')
                            )
+            print "-" * 70
+            print "-" * 70
+            print "-" * 70
             print "selected \t- DropDownList1"
             select.select_by_value(gaugevalue)
+            self.cur_gauge = gaugevalue
             print "clicked \t- {:15} {:15}".\
                 format(gaugevalue, gaugename)
-
-            select_sensor = \
-             Select(self.driver.find_element_by_name('DropDownList2'))
-            print "\nselected \t- DropDownList2"
-            self._cycle_options(select_sensor.options)
+            print "-" * 70
             print "-" * 70
 
+            self._cycle_options()
 
-    def _cycle_options(self, sensor_options):
+
+    def _cycle_options(self):
         """Cycles options in DropDownList2 and calls remaining
         methods
         """
+        sensor_options = self._get_sensor_options()
 
-        for option in sensor_options:
-            option.click()
-            print "clicked \t- {:15} {:15}".\
-                format(option.get_attribute("value"), option.text)
-            self._cycle_dates(option)
+        for optionvalue, optionname in sensor_options:
+            select = Select(
+                     self.driver.find_element_by_name('DropDownList2')
+                           )
+            select.select_by_value(optionvalue)
+            # option.click()
+            print "-" * 70
+            print "\nselected \t- DropDownList2"
+            print "clicked \t- {:15} {:15}\n".\
+                format(optionvalue, optionname)
+            print "-" * 70
+            self._cycle_dates()
 
 
-    def _cycle_dates(self, option):
+    def _get_sensor_options(self):
+        """Get all sensor options currently displayed
+        """
+        soup = BeautifulSoup(self.driver.page_source, 'lxml')
+        dl2 = soup.find(id=('DropDownList2'))
+        alloptions = dl2.find_all("option")
+
+        return [(o.get('value'), o.contents[0]) for o in alloptions]
+
+
+    def _cycle_dates(self):
         """Cycles through date options"""
+        drang = timedelta(days=179)  ##### MAY BE ATTR IN FUTURE
+        cur_end_date = self.end_date
+        cur_start_date = cur_end_date - drang
+
+        while cur_end_date >= self.start_date:
+            self._enter_dates(cur_start_date, cur_end_date)
+
+            submit = self.driver.find_element_by_name("Button1")
+            submit.click()
+            print "clicked \t- Button1"
+
+            flag = self._parse_table()
+            if flag == "break":
+                break
+
+            cur_end_date = cur_start_date - timedelta(1) #inclusive
+            cur_start_date = max(cur_end_date - drang, self.start_date)
+
+
+    def _enter_dates(self, start, end):
         start_date_field = self.driver.find_element_by_name("Date1")
         end_date_field = self.driver.find_element_by_name("Date2")
 
-        daylimit = timedelta(days=179)  ##### MAY BE ATTR IN FUTURE
-
-        date1 = '01/01/2001'
         start_date_field.clear()
-        end_date_field.send_keys(date1)
-        print "selected \t- Date1"
-        print "entered \t- {:15}".format(date1)
+        start_date_field.send_keys(self._conv_date(start))
+        end_date_field.clear()
+        end_date_field.send_keys(self._conv_date(end))
 
+        print "selected \t- Date2"
+        print "entered \t- {:15} {:15}".\
+            format("End Date", self._conv_date(end))
+        print "selected \t- Date1"
+        print "entered \t- {:15} {:15}".\
+            format("Start Date", self._conv_date(start))
+
+
+    def _parse_table(self):
+        """Check if table exists, then parse using bs4"""
+        try:
+            table = self.driver.find_element_by_tag_name("tbody")
+        except NoSuchElementException:
+            print "exception \t- tbody not found"
+            return "break"
+
+        soup = BeautifulSoup(self.driver.page_source, 'lxml')
+        tbody = soup.find("tbody")
+
+        rows = tbody.children
+        headers = [header.string for header in rows.next().children][1:-1]
+
+        inserts = []
+        for row in list(rows)[:-1]:
+            values = [v.string for v in row.children][1:-1]
+
+            for val, head in zip(values[1:], headers[1:]):
+                inserts.append((values[0], 'gauge', head, float(val)))
+        print "parsed \t\t- tbody"
+
+        self._sql_entry(inserts)
+
+
+    def _sql_entry(self, inserts):
+
+        md = ManipulateDatabase()
+        md.insert_gauge_readings(inserts)
+
+        now = datetime.now().strftime("%m/%d/%y %H:%m:%S")
+        print "access time\t- {}\n".format(now)
+        print "inserted \t- {} records".format(len(inserts))
 
     def _conv_date(self, dt):
         """Convert a string of m/d/Y to date object
@@ -162,10 +247,14 @@ class HLScraper(object):
             return dt.strftime("%m/%d/%Y")
 
 
-
-
 if __name__ == "__main__":
-    pass
+    hls = HLScraper(current_gauge_value=None,
+                    start_date='01/01/1950',
+                    end_date=None)
+    hls.start()
+
+    hls.quit()
+
 
     #  TEST get_gauge_list() - OK
     # gauge_list = _get_gauge_list()
@@ -183,9 +272,9 @@ if __name__ == "__main__":
 
 
     # REFACTOR INTO CLASS
-    hls = HLScraper(current_gauge_value=2868,
-                    start_date='01/01/1950',
-                    end_date=date.today())
+    # hls = HLScraper(current_gauge_value=3330,
+    #                 start_date='01/01/1950',
+    #                 end_date=None)
 
 
     # Test date and time conversion functions
@@ -195,8 +284,3 @@ if __name__ == "__main__":
     # datetest = date(2007, 12, 5)
     # print "datetest {}".format(datetest)
     # print hls._conv_date(datetest)
-
-
-    # hls.start()
-    #
-    # hls.quit()
