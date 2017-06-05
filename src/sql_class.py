@@ -108,8 +108,61 @@ class ManipulateDatabase(object):
         return bool(cur.rowcount)
 
 
+    def query_max_precip(self):
+
+        cur = self.conn.cursor()
+        cur.execute('''SELECT collection_time, MAX(value)
+                       FROM hydromet
+                       WHERE sensor=%s
+                       GROUP BY collection_time''',
+                   ('Rain (inches)',)
+                   )
+        data = cur.fetchall()
+
+        cur.close()
+        return data
+
+    def get_storm_rainfall(self, start_time, end_time):
+
+        cur = self.conn.cursor()
+        q = """
+        SELECT gauge, SUM(value)
+        FROM hydromet
+        WHERE (collection_time BETWEEN %s AND %s) AND (sensor = 'Rain (inches)')
+        GROUP BY gauge;
+        """
+        cur.execute(q, (start_time, end_time))
+
+        data = cur.fetchall()
+        cur.close()
+        return data
+
+    def get_max_min_lakes(self, start_time, end_time):
+
+        cur = self.conn.cursor()
+        q = """
+        SELECT DISTINCT gauge, MIN(value), MAX(value)
+        FROM hydromet
+        WHERE (collection_time BETWEEN %s AND %s) AND
+              (sensor = 'Lake Level (ft above MSL)')
+        GROUP BY gauge
+        """
+        cur.execute(q, (start_time, end_time))
+
+        data = cur.fetchall()
+        cur.close()
+        return data
+
+
+#  observation_id |   collection_time   | gauge | sensor | value
 
 # POOR MANS UNIT TESTING ENVIRONMENT
+#~/anaconda2/lib/python2.7/site-packages/phantomjs
+#~/anaconda2/lib/python2.7/site-packages/selenium/webdriver/phantomjs
+
+#~/phantomjs-2.1.1-linux-x86_64/bin
+
+
 if __name__ == "__main__":
     pass
 
@@ -136,3 +189,6 @@ if __name__ == "__main__":
     # md.insert_gauge_readings(obs2)
     multiobs = [obs1, obs2]
     # md.insert_gauge_readings(multiobs)
+
+
+    print len(md.query_max_precip())

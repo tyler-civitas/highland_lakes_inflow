@@ -44,12 +44,21 @@ class HLScraper(object):
                  end_gauge_value=None,
                  start_date='01/01/2001',
                  end_date=None,
-                 localhostdb=True
-                 logname = "defaultlog"):
+                 localhostdb=True,
+                 logname="defaultlog"):
 
         self.url = url
-        self.start_gauge_value = start_gauge_value
-        self.end_gauge_value = end_gauge_value
+
+        if start_gauge_value:
+            self.start_gauge_value = int(start_gauge_value)
+        else:
+            self.start_gauge_value = None
+
+        if end_gauge_value:
+            self.end_gauge_value = int(end_gauge_value)
+        else:
+            self.end_gauge_value = None
+
         self.start_date = self._conv_date(start_date)
         if not end_date:
             self.end_date = date.today()
@@ -77,15 +86,11 @@ class HLScraper(object):
         It may help to run this function with a UNIX redirection
         for STDOUT to log the behavior
         """
-	    self.log.write("Start Scraper")
+        self.log.write("Start Scraper\n")
         self.get_remaining_gauge_list(self.start_gauge_value,
                                       self.end_gauge_value)
 
-        # self.driver = webdriver.Chrome()
-        self.driver = webdriver.PhantomJS()
-        self.driver.set_window_size(1120, 550)
-        self.driver.implicitly_wait(30)
-        self.driver.get(self.url)
+
 
         self._cycle_gauges()
 
@@ -104,11 +109,11 @@ class HLScraper(object):
         gauge_list = self._get_gauge_list()
 
         if start_gauge_value:
-            idx = zip(*gauge_list)[0].index(str(start_gauge_value))
+            idx = zip(*gauge_list)[0].index(start_gauge_value)
             endidx = None
             if end_gauge_value:
                 endidx = 1 + \
-                        zip(*gauge_list)[0].index(str(end_gauge_value))
+                        zip(*gauge_list)[0].index(end_gauge_value)
             self.gauge_list = gauge_list[idx:endidx]
         else:
             self.gauge_list = gauge_list
@@ -124,13 +129,26 @@ class HLScraper(object):
             list           | list of tuples containing strings
                              (gauge number, gauge name)
         """
+        #
+        # r = requests.get(self.url)
+        # soup = BeautifulSoup(r.content, 'html.parser')
+        # dl1 = soup.find(id='DropDownList1')
+        # allgauges = dl1.find_all("option")
+        #
+        # return [(g.get('value'), g.contents[0]) for g in allgauges]
+        df = pd.read_csv("gauge_list.csv",
+                          dtype={'value':np.int32,
+                                 'name':np.dtype('S')})
+        return [(val, name) for val, name in df.itertuples(index=False)]
 
-        r = requests.get(self.url)
-        soup = BeautifulSoup(r.content, 'html.parser')
-        dl1 = soup.find(id='DropDownList1')
-        allgauges = dl1.find_all("option")
-
-        return [(g.get('value'), g.contents[0]) for g in allgauges]
+    def _refresh_driver(self):
+        if self.driver:
+            self.driver.quit()
+        self.driver = webdriver.Chrome()
+        # self.driver = webdriver.PhantomJS()
+        # self.driver.set_window_size(1120, 550) # CHECK TIME SPLIT with phantom JS and chrome
+        self.driver.implicitly_wait(30)
+        self.driver.get(self.url)
 
 
     def _cycle_gauges(self):
@@ -139,19 +157,20 @@ class HLScraper(object):
         """
 
         for gaugevalue, gaugename in self.gauge_list:
+            self._refresh_driver()
             select = Select(
                      self.driver.find_element_by_name('DropDownList1')
                            )
-            self.log.write("-" * 70)
-            self.log.write( "-" * 70)
-            self.log.write( "-" * 70)
-            self.log.write( "selected \t- DropDownList1")
-            select.select_by_value(gaugevalue)
+            self.log.write(("-" * 70) + "\n")
+            self.log.write(("-" * 70) + "\n")
+            self.log.write((" " * 70) + "\n")
+            self.log.write( "selected \t- DropDownList1\n")
+            select.select_by_value(str(gaugevalue))
             self.cur_gauge = gaugevalue
-            self.log.write( "clicked \t- {:15} {:15}".\
+            self.log.write( "clicked \t- {:15} {:15}\n".\
                 format(gaugevalue, gaugename))
-            self.log.write( "-" * 70)
-            self.log.write( "-" * 70)
+            self.log.write(("-" * 70) + "\n")
+            self.log.write(("-" * 70) + "\n")
 
             self._cycle_options()
 
@@ -168,11 +187,11 @@ class HLScraper(object):
                            )
             select.select_by_value(optionvalue)
             # option.click()
-            self.log.write( "-" * 70)
-            self.log.write( "\nselected \t- DropDownList2")
-            self.log.write( "clicked \t- {:15} {:15}\n".\
+            self.log.write(("-" * 70) + "\n")
+            self.log.write("\nselected \t- DropDownList2\n")
+            self.log.write("clicked \t- {:15} {:15}\n".\
                 format(optionvalue, optionname))
-            self.log.write( "-" * 70)
+            self.log.write(("-" * 70) + "\n")
             self._cycle_dates()
 
 
@@ -197,7 +216,7 @@ class HLScraper(object):
 
             submit = self.driver.find_element_by_name("Button1")
             submit.click()
-            self.log.write( "clicked \t- Button1")
+            self.log.write( "clicked \t- Button1\n")
 
             flag = self._parse_table()
             if flag == "break":
@@ -216,11 +235,11 @@ class HLScraper(object):
         end_date_field.clear()
         end_date_field.send_keys(self._conv_date(end))
 
-        self.log.write( "selected \t- Date2")
-        self.log.write( "entered \t- {:15} {:15}".\
+        self.log.write( "selected \t- Date2\n")
+        self.log.write( "entered \t- {:15} {:15}\n".\
             format("End Date", self._conv_date(end)))
-        self.log.write( "selected \t- Date1")
-        self.log.write( "entered \t- {:15} {:15}".\
+        self.log.write( "selected \t- Date1\n")
+        self.log.write( "entered \t- {:15} {:15}\n".\
             format("Start Date", self._conv_date(start)))
 
 
@@ -229,7 +248,7 @@ class HLScraper(object):
         try:
             table = self.driver.find_element_by_tag_name("tbody")
         except NoSuchElementException:
-            self.log.write( "exception \t- tbody not found")
+            self.log.write( "exception \t- tbody not found\n")
             return "break"
 
         soup = BeautifulSoup(self.driver.page_source, 'lxml')
@@ -248,8 +267,8 @@ class HLScraper(object):
                     insval = None
                 else:
                     insval = float(val)
-                inserts.append((values[0], 'gauge', head, insval))
-        self.log.write( "parsed \t\t- tbody")
+                inserts.append((values[0], str(self.cur_gauge), head, insval))
+        self.log.write( "parsed \t\t- tbody\n")
 
         self._sql_entry(inserts)
 
@@ -258,9 +277,9 @@ class HLScraper(object):
 
         self.md.insert_gauge_readings(inserts)
 
-        now = datetime.now().strftime("%m/%d/%y %H:%m:%S")
-        self.log.write( "access time\t- {}".format(now))
-        self.log.write( "inserted \t- {} records\n".format(len(inserts)))
+        now = datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+        self.log.write( "access time\t- {}\n".format(now))
+        self.log.write( "inserted \t- {} records\n\n".format(len(inserts)))
 
     def _conv_date(self, dt):
         """Convert a string of m/d/Y to date object

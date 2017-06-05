@@ -1,0 +1,2083 @@
+Start Scraper
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                                      
+selected 	- DropDownList1
+clicked 	-            1405  Eldorado 2 E  
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- PC              Rainfall at Site
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:49:12
+inserted 	- 34194 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:50:09
+inserted 	- 33806 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:51:03
+inserted 	- 34340 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:51:58
+inserted 	- 34364 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:52:47
+inserted 	- 32916 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:53:40
+inserted 	- 34360 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:54:32
+inserted 	- 33926 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:55:23
+inserted 	- 33600 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:56:15
+inserted 	- 34200 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:57:10
+inserted 	- 34166 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:58:04
+inserted 	- 34310 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:58:57
+inserted 	- 34366 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 12:59:54
+inserted 	- 34352 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:01:01
+inserted 	- 34288 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:01:59
+inserted 	- 34342 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:02:51
+inserted 	- 34350 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:03:47
+inserted 	- 34160 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:04:39
+inserted 	- 34364 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:05:09
+inserted 	- 18746 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- Rhumid          Relative Humidity
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:06:30
+inserted 	- 17097 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:07:21
+inserted 	- 16903 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:08:14
+inserted 	- 17170 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:09:04
+inserted 	- 17182 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:09:51
+inserted 	- 16456 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:10:41
+inserted 	- 17180 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:11:31
+inserted 	- 16963 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:12:19
+inserted 	- 16800 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:13:06
+inserted 	- 17095 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:13:55
+inserted 	- 17083 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:14:44
+inserted 	- 17155 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:15:27
+inserted 	- 17183 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:16:24
+inserted 	- 17176 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:17:14
+inserted 	- 17144 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:18:03
+inserted 	- 17166 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:18:54
+inserted 	- 17175 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:19:43
+inserted 	- 17080 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:20:30
+inserted 	- 17182 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:21:01
+inserted 	- 9369 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:21:02
+inserted 	- 28 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- TEMP            Temperature at Site
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:22:21
+inserted 	- 17097 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:23:10
+inserted 	- 16903 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:23:57
+inserted 	- 17162 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:24:48
+inserted 	- 17182 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:25:35
+inserted 	- 16451 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:26:22
+inserted 	- 17180 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:27:11
+inserted 	- 16963 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:28:00
+inserted 	- 16800 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:28:48
+inserted 	- 17095 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:29:38
+inserted 	- 17083 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:30:27
+inserted 	- 17155 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:31:15
+inserted 	- 17183 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:32:09
+inserted 	- 17176 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:33:02
+inserted 	- 17144 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:33:49
+inserted 	- 17154 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:34:38
+inserted 	- 17175 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:35:25
+inserted 	- 17080 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:36:14
+inserted 	- 17182 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:36:40
+inserted 	- 9369 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:36:41
+inserted 	- 28 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                                      
+selected 	- DropDownList1
+clicked 	-            1090  Millersview 7 WSW
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- PC              Rainfall at Site
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:38:04
+inserted 	- 34356 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:38:46
+inserted 	- 34368 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:39:28
+inserted 	- 34366 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:40:12
+inserted 	- 34370 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:40:53
+inserted 	- 33222 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:41:33
+inserted 	- 34360 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:42:15
+inserted 	- 33998 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:42:57
+inserted 	- 33992 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:43:41
+inserted 	- 34166 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:44:24
+inserted 	- 34176 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:45:05
+inserted 	- 34334 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:45:55
+inserted 	- 34360 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:46:39
+inserted 	- 34270 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:47:23
+inserted 	- 34238 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:48:05
+inserted 	- 34366 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:48:45
+inserted 	- 34338 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:49:26
+inserted 	- 34144 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:50:08
+inserted 	- 34364 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:50:47
+inserted 	- 31178 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                                      
+selected 	- DropDownList1
+clicked 	-            1307  Clyde 6 S     
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- PC              Rainfall at Site
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:52:09
+inserted 	- 34354 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:52:52
+inserted 	- 34208 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:53:36
+inserted 	- 34368 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:54:17
+inserted 	- 34246 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:54:57
+inserted 	- 33108 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:55:44
+inserted 	- 34336 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:56:24
+inserted 	- 33662 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:57:07
+inserted 	- 33782 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:57:56
+inserted 	- 34092 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:58:37
+inserted 	- 34160 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 13:59:22
+inserted 	- 34286 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:00:05
+inserted 	- 34328 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:00:54
+inserted 	- 34366 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:01:44
+inserted 	- 33938 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:02:26
+inserted 	- 34104 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:03:07
+inserted 	- 33974 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:03:52
+inserted 	- 34096 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:04:35
+inserted 	- 34354 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:05:16
+inserted 	- 34086 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:05:55
+inserted 	- 32544 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:06:39
+inserted 	- 34082 records
+
+selected 	- Date2
+entered 	- End Date        01/25/2007     
+selected 	- Date1
+entered 	- Start Date      07/30/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:06:48
+inserted 	- 6890 records
+
+selected 	- Date2
+entered 	- End Date        07/29/2006     
+selected 	- Date1
+entered 	- Start Date      01/31/2006     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- Rhumid          Relative Humidity
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:08:04
+inserted 	- 17177 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:08:43
+inserted 	- 17104 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:09:23
+inserted 	- 17183 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:10:02
+inserted 	- 17123 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:10:41
+inserted 	- 16552 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:11:21
+inserted 	- 17168 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:12:04
+inserted 	- 16831 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:12:42
+inserted 	- 16891 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:13:20
+inserted 	- 17039 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:13:59
+inserted 	- 17080 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:14:40
+inserted 	- 17143 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:15:22
+inserted 	- 17164 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:16:11
+inserted 	- 17183 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:16:54
+inserted 	- 16997 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:17:36
+inserted 	- 17040 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:18:17
+inserted 	- 16975 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:18:57
+inserted 	- 17048 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:19:44
+inserted 	- 17178 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:20:25
+inserted 	- 17064 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:21:04
+inserted 	- 16249 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:21:45
+inserted 	- 17077 records
+
+selected 	- Date2
+entered 	- End Date        01/25/2007     
+selected 	- Date1
+entered 	- Start Date      07/30/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:21:57
+inserted 	- 3445 records
+
+selected 	- Date2
+entered 	- End Date        07/29/2006     
+selected 	- Date1
+entered 	- Start Date      01/31/2006     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- TEMP            Temperature at Site
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:23:10
+inserted 	- 17177 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:23:56
+inserted 	- 17104 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:24:36
+inserted 	- 17183 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:25:18
+inserted 	- 17123 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:25:57
+inserted 	- 16551 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:26:38
+inserted 	- 17168 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:27:20
+inserted 	- 16831 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:28:05
+inserted 	- 16891 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:28:47
+inserted 	- 17039 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:29:31
+inserted 	- 17080 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:30:15
+inserted 	- 17143 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:31:03
+inserted 	- 17164 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:31:48
+inserted 	- 17183 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:32:29
+inserted 	- 16997 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:33:12
+inserted 	- 17040 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:33:51
+inserted 	- 16975 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:34:30
+inserted 	- 17048 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:35:10
+inserted 	- 17178 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:35:49
+inserted 	- 17039 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:36:26
+inserted 	- 16227 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:37:08
+inserted 	- 17077 records
+
+selected 	- Date2
+entered 	- End Date        01/25/2007     
+selected 	- Date1
+entered 	- Start Date      07/30/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:37:19
+inserted 	- 3445 records
+
+selected 	- Date2
+entered 	- End Date        07/29/2006     
+selected 	- Date1
+entered 	- Start Date      01/31/2006     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+                                                                      
+selected 	- DropDownList1
+clicked 	-            1197  Rochelle 5 NNW
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- PC              Rainfall at Site
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:38:36
+inserted 	- 33650 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:39:18
+inserted 	- 34150 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:40:02
+inserted 	- 34260 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:40:44
+inserted 	- 34314 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:41:30
+inserted 	- 34302 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:42:12
+inserted 	- 33616 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:42:53
+inserted 	- 33480 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:43:35
+inserted 	- 33152 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:44:17
+inserted 	- 33668 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:44:55
+inserted 	- 32918 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:45:40
+inserted 	- 32612 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:46:28
+inserted 	- 32936 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:47:09
+inserted 	- 32682 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:47:56
+inserted 	- 33452 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:48:35
+inserted 	- 31900 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:49:11
+inserted 	- 29810 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:49:58
+inserted 	- 30238 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:50:39
+inserted 	- 31536 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:51:21
+inserted 	- 32938 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:52:03
+inserted 	- 33214 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:52:53
+inserted 	- 32850 records
+
+selected 	- Date2
+entered 	- End Date        01/25/2007     
+selected 	- Date1
+entered 	- Start Date      07/30/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:53:34
+inserted 	- 32782 records
+
+selected 	- Date2
+entered 	- End Date        07/29/2006     
+selected 	- Date1
+entered 	- Start Date      01/31/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:54:18
+inserted 	- 33350 records
+
+selected 	- Date2
+entered 	- End Date        01/30/2006     
+selected 	- Date1
+entered 	- Start Date      08/04/2005     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:54:52
+inserted 	- 26434 records
+
+selected 	- Date2
+entered 	- End Date        08/03/2005     
+selected 	- Date1
+entered 	- Start Date      02/05/2005     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- Rhumid          Relative Humidity
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:56:02
+inserted 	- 16825 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:56:42
+inserted 	- 17076 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:57:27
+inserted 	- 17130 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:58:09
+inserted 	- 17157 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:58:50
+inserted 	- 17151 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 14:59:34
+inserted 	- 16808 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:00:14
+inserted 	- 16740 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:01:00
+inserted 	- 16576 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:01:42
+inserted 	- 16834 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:02:23
+inserted 	- 16459 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:03:00
+inserted 	- 16306 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:03:40
+inserted 	- 16468 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:04:17
+inserted 	- 16341 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:04:58
+inserted 	- 16725 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:05:36
+inserted 	- 15950 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:06:08
+inserted 	- 14905 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:06:45
+inserted 	- 15119 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:07:24
+inserted 	- 15766 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:08:06
+inserted 	- 16472 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:08:45
+inserted 	- 16607 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:09:22
+inserted 	- 16428 records
+
+selected 	- Date2
+entered 	- End Date        01/25/2007     
+selected 	- Date1
+entered 	- Start Date      07/30/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:09:59
+inserted 	- 16391 records
+
+selected 	- Date2
+entered 	- End Date        07/29/2006     
+selected 	- Date1
+entered 	- Start Date      01/31/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:10:37
+inserted 	- 16675 records
+
+selected 	- Date2
+entered 	- End Date        01/30/2006     
+selected 	- Date1
+entered 	- Start Date      08/04/2005     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:11:08
+inserted 	- 13217 records
+
+selected 	- Date2
+entered 	- End Date        08/03/2005     
+selected 	- Date1
+entered 	- Start Date      02/05/2005     
+clicked 	- Button1
+exception 	- tbody not found
+----------------------------------------------------------------------
+
+selected 	- DropDownList2
+clicked 	- TEMP            Temperature at Site
+----------------------------------------------------------------------
+selected 	- Date2
+entered 	- End Date        06/01/2017     
+selected 	- Date1
+entered 	- Start Date      12/04/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:12:20
+inserted 	- 16825 records
+
+selected 	- Date2
+entered 	- End Date        12/03/2016     
+selected 	- Date1
+entered 	- Start Date      06/07/2016     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:12:59
+inserted 	- 17076 records
+
+selected 	- Date2
+entered 	- End Date        06/06/2016     
+selected 	- Date1
+entered 	- Start Date      12/10/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:13:37
+inserted 	- 17130 records
+
+selected 	- Date2
+entered 	- End Date        12/09/2015     
+selected 	- Date1
+entered 	- Start Date      06/13/2015     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:14:16
+inserted 	- 17157 records
+
+selected 	- Date2
+entered 	- End Date        06/12/2015     
+selected 	- Date1
+entered 	- Start Date      12/15/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:14:58
+inserted 	- 17151 records
+
+selected 	- Date2
+entered 	- End Date        12/14/2014     
+selected 	- Date1
+entered 	- Start Date      06/18/2014     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:15:47
+inserted 	- 16808 records
+
+selected 	- Date2
+entered 	- End Date        06/17/2014     
+selected 	- Date1
+entered 	- Start Date      12/20/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:16:32
+inserted 	- 16740 records
+
+selected 	- Date2
+entered 	- End Date        12/19/2013     
+selected 	- Date1
+entered 	- Start Date      06/23/2013     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:17:11
+inserted 	- 16576 records
+
+selected 	- Date2
+entered 	- End Date        06/22/2013     
+selected 	- Date1
+entered 	- Start Date      12/25/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:17:55
+inserted 	- 16834 records
+
+selected 	- Date2
+entered 	- End Date        12/24/2012     
+selected 	- Date1
+entered 	- Start Date      06/28/2012     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:18:33
+inserted 	- 16459 records
+
+selected 	- Date2
+entered 	- End Date        06/27/2012     
+selected 	- Date1
+entered 	- Start Date      12/31/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:19:15
+inserted 	- 16306 records
+
+selected 	- Date2
+entered 	- End Date        12/30/2011     
+selected 	- Date1
+entered 	- Start Date      07/04/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:19:55
+inserted 	- 16468 records
+
+selected 	- Date2
+entered 	- End Date        07/03/2011     
+selected 	- Date1
+entered 	- Start Date      01/05/2011     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:20:34
+inserted 	- 16341 records
+
+selected 	- Date2
+entered 	- End Date        01/04/2011     
+selected 	- Date1
+entered 	- Start Date      07/09/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:21:15
+inserted 	- 16726 records
+
+selected 	- Date2
+entered 	- End Date        07/08/2010     
+selected 	- Date1
+entered 	- Start Date      01/10/2010     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:21:52
+inserted 	- 15950 records
+
+selected 	- Date2
+entered 	- End Date        01/09/2010     
+selected 	- Date1
+entered 	- Start Date      07/14/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:22:26
+inserted 	- 14905 records
+
+selected 	- Date2
+entered 	- End Date        07/13/2009     
+selected 	- Date1
+entered 	- Start Date      01/15/2009     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:23:00
+inserted 	- 15119 records
+
+selected 	- Date2
+entered 	- End Date        01/14/2009     
+selected 	- Date1
+entered 	- Start Date      07/19/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:23:36
+inserted 	- 15766 records
+
+selected 	- Date2
+entered 	- End Date        07/18/2008     
+selected 	- Date1
+entered 	- Start Date      01/21/2008     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:24:15
+inserted 	- 16469 records
+
+selected 	- Date2
+entered 	- End Date        01/20/2008     
+selected 	- Date1
+entered 	- Start Date      07/25/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:24:54
+inserted 	- 16613 records
+
+selected 	- Date2
+entered 	- End Date        07/24/2007     
+selected 	- Date1
+entered 	- Start Date      01/26/2007     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:25:32
+inserted 	- 16425 records
+
+selected 	- Date2
+entered 	- End Date        01/25/2007     
+selected 	- Date1
+entered 	- Start Date      07/30/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:26:10
+inserted 	- 16391 records
+
+selected 	- Date2
+entered 	- End Date        07/29/2006     
+selected 	- Date1
+entered 	- Start Date      01/31/2006     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:26:47
+inserted 	- 16675 records
+
+selected 	- Date2
+entered 	- End Date        01/30/2006     
+selected 	- Date1
+entered 	- Start Date      08/04/2005     
+clicked 	- Button1
+parsed 		- tbody
+access time	- 06/01/2017 15:27:18
+inserted 	- 13217 records
+
+selected 	- Date2
+entered 	- End Date        08/03/2005     
+selected 	- Date1
+entered 	- Start Date      02/05/2005     
+clicked 	- Button1
+exception 	- tbody not found

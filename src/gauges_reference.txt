@@ -1,0 +1,86 @@
+#SEPERATED BY WATERSHEDS
+#some boundary gauges can be classified as either (work on this)
+jollyville 2 - last sensor of lake austin
+Burnet 1 - last sensor of travis
+rocksprings 12 - last sensor of lbj
+
+include downstream lakes  as extra response variables
+ (they fluctuate during flood)
+(lake austin (tom miller), lbj (wirtz), marble falls(starcke), inks)
+# make a second gauge list for planning the runs
+
+
+#SCRAPING ORDER
+
+log_1
+3999, Tom Miller Dam
+4594, Driftwood 4 SSE
+3991, Jollyville 2 SW
+3963, Mansfield Dam
+3948, Lakeway 2 E
+3448, Blanco 5 NNE
+3237, Harper 4 SSW
+
+
+log_2
+3015, Burnet 1 WSW
+2634, Cherokee 4 SSE
+2348, Menard 12 SSE
+2140, Sonora 14 SE
+2248, Rocksprings 12 NE
+1995, Buchanan Dam
+1921, Lometa 2 WNW
+
+
+log_3
+1405, Eldorado 2 E
+1090, Millersview 7 WSW
+1307, Clyde 6 S
+1197, Rochelle 5 NNW
+2958, Wirtz Dam
+2999, Starcke Dam
+1999, Inks Dam
+
+2016-09-13 09:40:00
+2016-09-27 11:56:00
+        SELECT DISTINCT gauge, MIN(value), MAX(value)
+        FROM hydromet
+        WHERE (collection_time BETWEEN '2016-09-13 09:40:00' AND '2016-09-27 11:56:00') AND
+              (sensor = 'Lake Level (ft above MSL)')
+        GROUP BY gauge
+
+
+# ENDING STEPS
+1. Turn off proxy
+2. Turn on 'require password' timeout (Security and privacy)
+3. Turn sleep mode back on (Energy saver)
+
+
+
+3999, Tom Miller Dam
+4594, Driftwood 4 SSE
+3991, Jollyville 2 SW
+
+
+3963, Mansfield Dam
+3948, Lakeway 2 E
+3448, Blanco 5 NNE
+3237, Harper 4 SSW
+3015, Burnet 1 WSW
+2634, Cherokee 4 SSE
+2348, Menard 12 SSE
+2140, Sonora 14 SE
+2248, Rocksprings 12 NE
+
+
+1995, Buchanan Dam
+1921, Lometa 2 WNW
+1405, Eldorado 2 E
+1090, Millersview 7 WSW
+1307, Clyde 6 S
+1197, Rochelle 5 NNW
+
+
+2958, Wirtz Dam
+2999, Starcke Dam
+1999, Inks Dam
