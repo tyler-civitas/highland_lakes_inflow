@@ -1,2 +1,1 @@
-# highland_lakes_inflow
-Model the inflows to the highland lake system 
+# ![Highland Lake Project Paper](https://tylerc-atx.github.io/hl.html)
