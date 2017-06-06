@@ -1,1 +1,1 @@
-# [Highland Lake Project Paper](https://tylerc-atx.github.io/hl.html)
+# [Highland Lakes Project Paper](https://tylerc-atx.github.io/hl.html)
