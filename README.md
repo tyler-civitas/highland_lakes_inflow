@@ -1,1 +1,1 @@
-# [Click here to view project readme](https://tylerc-atx.github.io/hl.html)
+# [Click Here for Highland Lakes Project Whitepaper](https://tylerc-atx.github.io/hl.html)
